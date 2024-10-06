@@ -19,6 +19,7 @@ namespace git_taak_1_groep_abc_12001591
         public MainWindow()
         {
             InitializeComponent();
-        }
+
+                    }
     }
 }

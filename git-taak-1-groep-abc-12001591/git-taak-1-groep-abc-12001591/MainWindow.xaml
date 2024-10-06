@@ -8,5 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="LightGray">
         <TextBlock HorizontalAlignment="Left" Margin="74,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"><Run Language="nl-be" Text="Kleurenpsychologie"/></TextBlock>
+        <Image Margin="639,24,50,292" Source="/OIP.jpg" Stretch="Fill"/>
     </Grid>
 </Window>
