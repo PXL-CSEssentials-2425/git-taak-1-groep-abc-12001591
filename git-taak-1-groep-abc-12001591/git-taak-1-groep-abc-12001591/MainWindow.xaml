@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:git_taak_1_groep_abc_12001591"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="LightGray">
+        Title="Kleurencodes" Height="450" Width="800">
+    <Grid x:Name="mainGrid" Background="LightGray">
+      
         <TextBlock HorizontalAlignment="Left" Margin="74,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"><Run Language="nl-be" Text="Kleurenpsychologie"/></TextBlock>
-        <Image Margin="639,24,50,292" Source="/OIP.jpg" Stretch="Fill"/>
+        <Image x:Name="pxlPicture" Margin="644,24,40,304" Source="/OIP.jpg" Stretch="Fill" MouseEnter="pxlPicture_MouseEnter" MouseLeave="pxlPicture_MouseLeave"/>
     </Grid>
 </Window>

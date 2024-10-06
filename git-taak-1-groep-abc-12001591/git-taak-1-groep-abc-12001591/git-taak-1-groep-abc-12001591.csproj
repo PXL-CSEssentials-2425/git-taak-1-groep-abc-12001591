@@ -9,4 +9,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="OIP.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="OIP.jpg" />
+  </ItemGroup>
+
 </Project>

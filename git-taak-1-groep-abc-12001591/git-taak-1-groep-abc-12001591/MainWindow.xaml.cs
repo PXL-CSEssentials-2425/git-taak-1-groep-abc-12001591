@@ -20,6 +20,19 @@ namespace git_taak_1_groep_abc_12001591
         {
             InitializeComponent();
 
-                    }
+           
+
+        }
+
+        private void pxlPicture_MouseEnter(object sender, MouseEventArgs e)
+        {
+           
+            mainGrid.Background = Brushes.Black;
+        }
+
+        private void pxlPicture_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainGrid.Background = Brushes.LightGray;
+        }
     }
 }
