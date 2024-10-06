@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -33,6 +34,26 @@ namespace git_taak_1_groep_abc_12001591
         private void pxlPicture_MouseLeave(object sender, MouseEventArgs e)
         {
             mainGrid.Background = Brushes.LightGray;
+        }
+
+        private void rodeBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeTextBox.Text = "#FF0000";
+        }
+
+        private void geleBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeTextBox.Text = "#FFFF00";
+        }
+
+        private void groeneBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeTextBox.Text = "#008000";
+        }
+
+        private void blauweBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCodeTextBox.Text = "#0000FF";
         }
     }
 }

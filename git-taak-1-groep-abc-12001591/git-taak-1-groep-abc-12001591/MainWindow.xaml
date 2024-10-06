@@ -7,8 +7,14 @@
         mc:Ignorable="d"
         Title="Kleurencodes" Height="450" Width="800">
     <Grid x:Name="mainGrid" Background="LightGray">
-      
-        <TextBlock HorizontalAlignment="Left" Margin="74,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"><Run Language="nl-be" Text="Kleurenpsychologie"/></TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Margin="60,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"><Run Language="nl-be" Text="Kleurenpsychologie"/></TextBlock>
         <Image x:Name="pxlPicture" Margin="644,24,40,304" Source="/OIP.jpg" Stretch="Fill" MouseEnter="pxlPicture_MouseEnter" MouseLeave="pxlPicture_MouseLeave"/>
+        <Image x:Name="rodeBloem" Margin="60,94,566,231" Source="/rode bloem.jpg" Stretch="Fill" MouseLeftButtonDown="rodeBloem_MouseLeftButtonDown"/>
+        <Image x:Name="geleBloem" Margin="312,94,312,231" Source="/gele bloem.jpg" Stretch="Fill" MouseLeftButtonDown="geleBloem_MouseLeftButtonDown"/>
+        <Image x:Name="groeneBloem" Margin="60,242,566,83" Source="/groene bloem (1).jpg" Stretch="Fill" MouseLeftButtonDown="groeneBloem_MouseLeftButtonDown"/>
+        <Image x:Name="blauweBloem" Margin="312,242,312,83" Source="/blauwe bloem.jpg" Stretch="Fill" MouseLeftButtonDown="blauweBloem_MouseLeftButtonDown"/>
+        <Label Content="Kleurcode:" HorizontalAlignment="Left" Margin="63,356,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="kleurCodeTextBox" HorizontalAlignment="Left" Margin="134,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>

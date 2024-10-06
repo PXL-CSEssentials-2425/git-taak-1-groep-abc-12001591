@@ -10,11 +10,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="blauwe bloem.jpg" />
+    <None Remove="gele bloem.jpg" />
+    <None Remove="groene bloem %281%29.jpg" />
     <None Remove="OIP.jpg" />
+    <None Remove="rode bloem.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="blauwe bloem.jpg" />
+    <Resource Include="gele bloem.jpg" />
+    <Resource Include="groene bloem (1).jpg" />
     <Resource Include="OIP.jpg" />
+    <Resource Include="rode bloem.jpg" />
   </ItemGroup>
 
 </Project>
