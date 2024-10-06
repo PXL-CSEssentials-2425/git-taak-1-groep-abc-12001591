@@ -39,21 +39,25 @@ namespace git_taak_1_groep_abc_12001591
         private void rodeBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeTextBox.Text = "#FF0000";
+            infoTextBox.Text = "Rood is de kleur van warmte";
         }
 
         private void geleBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeTextBox.Text = "#FFFF00";
+            infoTextBox.Text = "Geel is de kleur van levenslust";
         }
 
         private void groeneBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeTextBox.Text = "#008000";
+            infoTextBox.Text = "Groen is de kleur van genezing";
         }
 
         private void blauweBloem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             kleurCodeTextBox.Text = "#0000FF";
+            infoTextBox.Text = "Blauw is de kleur van intelligentie";
         }
     }
 }

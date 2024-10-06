@@ -16,5 +16,7 @@
         <Image x:Name="blauweBloem" Margin="312,242,312,83" Source="/blauwe bloem.jpg" Stretch="Fill" MouseLeftButtonDown="blauweBloem_MouseLeftButtonDown"/>
         <Label Content="Kleurcode:" HorizontalAlignment="Left" Margin="63,356,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="kleurCodeTextBox" HorizontalAlignment="Left" Margin="134,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Informatie:" HorizontalAlignment="Left" Margin="60,387,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="infoTextBox" HorizontalAlignment="Left" Margin="134,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" RenderTransformOrigin="0.491,0.626"/>
     </Grid>
 </Window>
